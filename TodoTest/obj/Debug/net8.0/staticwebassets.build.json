@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r3E3pbp7nD4fFJ22S8Tq+Kkl9yo3sNbvRArkWUbkq78=",
+  "Hash": "CxyBhBdWOCyzJKyLXWNKZVQOxu02eQVBcpjXoEg4hAY=",
   "Source": "TodoTest",
   "BasePath": "_content/TodoTest",
   "Mode": "Default",
@@ -17,7 +17,7 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\app.js",
+      "Identity": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\app.js",
       "SourceId": "TodoTest",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\",
@@ -36,7 +36,7 @@
       "OriginalItemSpec": "wwwroot\\app.js"
     },
     {
-      "Identity": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\index.html",
+      "Identity": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\index.html",
       "SourceId": "TodoTest",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\",
@@ -55,7 +55,7 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\README.md",
+      "Identity": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\README.md",
       "SourceId": "TodoTest",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\",
@@ -74,7 +74,7 @@
       "OriginalItemSpec": "wwwroot\\README.md"
     },
     {
-      "Identity": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\styles.css",
+      "Identity": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\styles.css",
       "SourceId": "TodoTest",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\",

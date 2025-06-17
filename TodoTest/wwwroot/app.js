@@ -17,9 +17,8 @@ angular.module('todoApp', [])
         $http.post('http://localhost:5217/api/todos', todo)
             .then(function (response) {
                 console.log('Todo saved:', response.data);
-                $scope.newTodo = ''; // Clear input field
+                $scope.newTodo = '';
 
-                // Optional: Add the new todo to your local list if you're maintaining one
                 if (!$scope.todos) $scope.todos = [];
                 $scope.todos.push(response.data);
             })

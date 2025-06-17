@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\README.md",
+      "Id": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\README.md",
       "PackagePath": "staticwebassets\\README.md"
     },
     {
-      "Id": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\app.js",
+      "Id": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\app.js",
       "PackagePath": "staticwebassets\\app.js"
     },
     {
-      "Id": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\index.html",
+      "Id": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\styles.css",
+      "Id": "c:\\Development\\angularjs-todo-test\\TodoTest\\wwwroot\\styles.css",
       "PackagePath": "staticwebassets\\styles.css"
     },
     {

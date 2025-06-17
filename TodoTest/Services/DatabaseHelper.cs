@@ -20,7 +20,7 @@ namespace TodoTest.Services
                 conn.Open();
                 var cmd = new SqlCommand("INSERT INTO TodoItems (Text) OUTPUT INSERTED.Id VALUES (@Text)", conn);
                 cmd.Parameters.AddWithValue("@Text", item.Text);
-                return (int)cmd.ExecuteScalar(); // ✅ Returns new Id
+                return (int)cmd.ExecuteScalar(); 
             }
         }
 

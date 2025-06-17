@@ -7,20 +7,19 @@ using TodoTest.Services;
     app.UseDefaultFiles();
     app.UseStaticFiles();
 
-    // Database helper with your connection string
     string connStr = builder.Configuration.GetConnectionString("DefaultConnection");
     var db = new DatabaseHelper(connStr);
-    var logger = new ErrorLogger();
+    var logger = new ErrorLogger(connStr);
 
-    // POST /api/todos
+    // $http.post('http://localhost:5217/api/todos', todo)
     app.MapPost("/api/todos", async (TodoItem item) =>
     {
         try
         {
-            int newId = db.AddTodoItem(item); // Assuming AddTodoItem returns new ID
-            item.Id = newId; // Set the generated ID so the frontend can use it
+            int newId = db.AddTodoItem(item); 
+            item.Id = newId; //set ID for front end to use.
 
-            return Results.Ok(item); // ✅ Return full object
+            return Results.Ok(item); 
         }
         catch (Exception ex)
         {
@@ -29,7 +28,7 @@ using TodoTest.Services;
         }
     });
 
-    // DELETE /api/todos/{id}
+    // $http.delete('http://localhost:5217/api/todos/' + todo.id)
     app.MapDelete("/api/todos/{id:int}", (int id) =>
     {
         try
